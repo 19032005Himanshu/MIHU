@@ -32,7 +32,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/MIHU" element={<HomePage />} />
         <Route path="/privacy-policy" element={<PolicyPage />} />
         <Route path="/tos" element={<Tos />} />
         <Route path="/rp" element={<Rp />} />
