@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.feature{
+    padding-left: 160px;
+
+}
+
+.featureRight{
+    padding-right: 224px;
+}
+
+@media (max-width: 768px) {
+  .feature,
+  .featureRight {
+    padding-left: 16px;   
+    padding-right: 16px;  
+  }
+}
